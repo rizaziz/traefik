@@ -4,4 +4,4 @@ COPY dist/traefik /traefik
 COPY traefik.sample.yml /etc/traefik/treaefik.yml
 EXPOSE 80 8080
 VOLUME ["/tmp"]
-ENTRYPOINT ["/traefik"]
+CMD ["/traefik"]
