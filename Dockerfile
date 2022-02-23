@@ -5,3 +5,4 @@ COPY traefik.sample.yml /etc/traefik/treaefik.yml
 EXPOSE 80
 VOLUME ["/tmp"]
 CMD ["/traefik"]
+
