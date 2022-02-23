@@ -1,10 +1,10 @@
 name: Build experimental image on branch
 
-on:
-  push:
-    branches:
-      - master
-      - v*
+# on:
+#   push:
+#     branches:
+#       - master
+#       - v*
 
 jobs:
 
